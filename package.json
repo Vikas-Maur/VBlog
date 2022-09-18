@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "A blog platform which opens the world for the people to share their thoughts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "blog",
+    "vblog"
+  ],
+  "author": "Vikas Maur, Aditya Tinker",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
